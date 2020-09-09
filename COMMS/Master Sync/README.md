@@ -109,7 +109,7 @@ steps.get_gids.projs has a key, value pair with each project name under the defi
 
 steps.get_gids.sections has a key value pair for each section in **COMMS - MASTER** and its corresponding gid.
 
-steps.get_gids.matches_s2p has a key, value pair matching section gid's to the corresponding subproject's gid. This matching is done each day when the corresponding database workflow refreshes the databse. This is when we sync tasks from sections to their corresponding subproject.
+steps.get_gids.matches_s2p has a key, value pair matching section's gid to the corresponding subproject's gid. This matching is done each day when the corresponding database workflow refreshes the databse. This is when we sync tasks from sections to their corresponding subproject.
 
 It also uses string similarity to determine the gid of **COMMS - MASTER** which will be used later.
 
